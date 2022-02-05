@@ -16,8 +16,7 @@ var fight = function() {
     window.alert("Welcome to Robot Gladiators!");
   };
 
-  // execute function
-  fight();
+  
   
   var promptFight = window.prompt("Would you like to FIGHT or SKIP this battle? Enter 'FIGHT' or 'SKIP' to choose.");
   console.log(promptFight);
@@ -67,3 +66,6 @@ if (promptFight === "fight" || promptFight === "FIGHT") {
 } else {
   window.alert("You need to choose a valid option. Try again!");
 }
+
+// execute function
+fight();
